@@ -12,7 +12,7 @@ Docker не потрібен: локально — лише npm run dev прот
 -->
 
 Моє репо: https://github.com/ylehenkyi-qc/pmwp-ylehenkyi · Прод-URL: https://pmwp-ylehenkyi.vercel.app/
-Репо вимог PM: <!-- https://github.com/<pm>/<team-slug>-spec --> · Організація Supabase: ylehenkyi@quitcode.com's Org
+Репо вимог PM: <!-- https://github.com/<pm>/<team-slug>-spec --> · Організація Supabase: Yevhen Co Org
 
 ## 1. Інструменти й репо
 
