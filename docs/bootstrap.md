@@ -11,8 +11,8 @@
 Docker не потрібен: локально — лише npm run dev проти вашої бази; міграції на одноразовій базі перевіряє CI (db-check).
 -->
 
-Моє репо: <!-- https://github.com/<dev>/<team-slug> --> · Прод-URL: <!-- https://<slug>.vercel.app -->
-Репо вимог PM: <!-- https://github.com/<pm>/<team-slug>-spec --> · Організація Supabase: <!-- назва -->
+Моє репо: https://github.com/ylehenkyi-qc/pmwp-ylehenkyi · Прод-URL: https://pmwp-ylehenkyi.vercel.app/
+Репо вимог PM: <!-- https://github.com/<pm>/<team-slug>-spec --> · Організація Supabase: ylehenkyi@quitcode.com's Org
 
 ## 1. Інструменти й репо
 
@@ -56,7 +56,7 @@ Docker не потрібен: локально — лише npm run dev прот
       `SUPABASE_SECRET_KEY` — **ніколи** — docs/img/4-37-16-10.png
 - [ x ] Settings → Deployment Protection → **Require Log In** вимкнено → Save (інакше PM і викладач не відкриють ваші preview;
       точну назву перемикача перевірте в інтерфейсі) — docs/img/4-38-16-10.png
-- [ x ] Після змінних — редеплой; прод-URL відкривається — https://pmwp-ylehenkyi-bp2t8pd9e-yevhen-qc.vercel.app/
+- [ x ] Після змінних — редеплой; прод-URL відкривається — https://pmwp-ylehenkyi.vercel.app/
 
 ## 5. База й перший зелений CI
 
@@ -78,7 +78,7 @@ Docker не потрібен: локально — лише npm run dev прот
 
 - [ ] `git switch -c setup/bootstrap` → цей файл із доказами розділів 1–6 → push → `gh pr create --web` (тип «Реалізація»)
       → окремим коментарем `@coderabbitai review` — <!-- посилання на PR (наступним PR) -->
-- [ ] Поки перевірки не зелені, кнопка merge заблокована; push у `main` напряму відхиляється — <!-- знімок -->
+- [ ] Поки перевірки не зелені, кнопка merge заблокована; push у `main` напряму відхиляється — docs/img/4-52-16-10.png
 - [ ] Vercel створив preview для PR — <!-- посилання на preview (наступним PR) -->
 - [ ] **Squash and merge** → прод-деплой Vercel пройшов — <!-- посилання -->
 - [ ] (З першою задачею, що має міграцію) `db-check` зелений, після merge `db-deploy` застосував її у вашу базу — <!-- посилання на run -->
